@@ -1,38 +1,72 @@
-.App {
+#App {
   text-align: center;
+  background-color: rgb(18, 16, 16);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.form-container{
+  width: 60vw;
+  background-color: rgb(44, 35, 35);
+  height: 15vh;
+  margin-left: 20%;
 }
+.form-style{ 
+  margin-top: 5%;
+  color: white;
+  width: 100%;
+  padding: 3%;
+  margin: left 0;
+}
+.form-labels{
+  font-size: large;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#addbtn{
+  margin-left: 3%;
+  background-color: rgb(201, 201, 48);
+  color: white;
+  width: 13%;
+}
+#updtbtn{
+  margin-left: 3%;
+  background-color: rgb(201, 201, 48);
+  color: white;
+  width: 13%;
+}
+.todo-container{
+  width: 60vw;
+  background-color: rgb(44, 35, 35);
+  height: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 20%;
+  padding-top: 0.1%;
+  display:'flex';
+  flex-direction: column;
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.todoitem-container{
+  width: 70%;
+  height: 16vh;
+  text-align: left;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding-left: 3%;
+  margin-top: 2%; 
+  color:rgb(219, 245, 71);
+}
+.todo-delete{
+  align-items: flex-end;
+  width: 30%;
+}
+#deletebtn{
+  background-color: rgb(201, 201, 48);
+  color: white;
+  width: 50%;
 }
